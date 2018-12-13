@@ -1,0 +1,47 @@
+html {
+
+}
+
+body {
+	background-color: #063607;
+
+}
+
+.navbar {
+  width: 100%;
+  background-color: #dde3e9;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: black;
+  background-image: url(../bild/snowfall.gif);
+  background-size: cover;
+}
+
+.active {
+  background-color: #ce0b0b;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.first {
+	border: inset #ce0b0b;
+	background-color: blue;
+	width:45%;
+	margin-top: 1%;
+	text-align: center;
+}
